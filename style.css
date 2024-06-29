@@ -1,0 +1,64 @@
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(https://www.pixel4k.com/wp-content/uploads/2024/01/after-sunset-minimal-2024-4k-3840x2160_1705278513.jpg.webp) top right;
+    background-size: cover;
+}
+.align-items-center {
+    align-items: center !important;
+}
+
+#hero .btn-about:hover {
+    background: #3dc8b7;
+}
+
+#hero .btn-about {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px 40px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin-top: 30px;
+    color: #fff;
+    background: #34b7a7;
+}
+
+a:hover {
+    color: #51cdbe;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #51cdbe;
+    text-decoration: none;
+}
+
+.abt-club{
+    background-color: #091628;
+}
+
+hr{
+    background-color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.hero-section {
+    position: fixed;
+    top: 60px; /* Adjust based on navbar height */
+    width: 100%;
+    z-index: 900;
+}
+
+.content {
+    margin-top: 100vh; /* Adjust based on hero section height */
+}
